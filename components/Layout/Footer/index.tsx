@@ -1,4 +1,5 @@
 import { NeutralLogo } from 'components/Icons';
+import { Logo } from 'components/Icons';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import footerGraphic from 'public/footerGraphic.svg';
@@ -13,15 +14,16 @@ const Footer = () => {
   return (
     <footer className="relative mt-20 flex flex-col flex-wrap gap-12 bg-lp-gray-5 p-10 text-lp-white sm:p-20 lg:min-h-[26.25rem] xl:min-h-[30rem] xl:flex-row xl:justify-between xl:p-24">
       <div className="z-10 flex flex-col gap-4 2xl:gap-8">
-        <NeutralLogo />
+        {/* <NeutralLogo /> */}
+        {/* <Logo /> */}
         <p className="flex w-fit flex-wrap gap-[2px] rounded text-sm text-lp-secondary backdrop-blur-xl lg:text-base xl:flex-col">
-          <span>© LlamaPay 2022.</span> <span>All rights reserved.</span>
+          <span>©2022.</span> <span>All rights reserved.</span>
         </p>
       </div>
 
       <div className="z-10 flex flex-wrap gap-12 rounded sm:gap-24 md:flex-row xl:mr-[21.25rem] xl:text-lg 2xl:mr-[25rem]">
-        <div className="flex flex-col gap-4">
-          <h3 className="font-exo w-fit rounded text-xl font-bold backdrop-blur-xl xl:text-2xl">Community</h3>
+        <div className="flex flex-col gap-8">
+          {/* <h3 className="font-exo w-fit rounded text-xl font-bold backdrop-blur-xl xl:text-2xl">Community</h3> */}
           <ul className="flex w-fit flex-col gap-2 rounded backdrop-blur-xl md:gap-4">
             <li>
               <a href="https://twitter.com/llamapay_io/" target="_blank" rel="noreferrer noopener">
@@ -36,16 +38,16 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-4">
-          <h3 className="font-exo w-fit rounded text-xl font-bold backdrop-blur-xl xl:text-2xl">Resources</h3>
+          {/* <h3 className="font-exo w-fit rounded text-xl font-bold backdrop-blur-xl xl:text-2xl">Resources</h3> */}
           <ul className="flex w-fit flex-col gap-2 rounded backdrop-blur-xl md:gap-4">
             <li>
               <a href="https://docs.llamapay.io/" target="_blank" rel="noreferrer noopener">
-                Documentation
+                Instagram
               </a>
             </li>
             <li>
               <a href="https://github.com/LlamaPay" target="_blank" rel="noreferrer noopener">
-                Github
+                Telegram
               </a>
             </li>
           </ul>
