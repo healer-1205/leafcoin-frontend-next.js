@@ -49,7 +49,9 @@
   "Header": {
     "connectWallet": "Connect Wallet",
     "language": "Language",
-    "docs": "Docs"
+    "docs": "Docs",
+    "home": "Home",
+    "faq": "FAQ"
   },
   "Banner": {
     "heading": "Automate recurring salary payments in crypto!",

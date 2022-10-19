@@ -49,7 +49,9 @@
   "Header": {
     "connectWallet": "Conectar Carteira",
     "language": "Língua",
-    "docs": "Docs"
+    "docs": "Docs",
+    "home": "Casa",
+    "faq": "FAQ"
   },
   "Banner": {
     "heading": "Automatiza pagamentos recorrentes de salários em criptomoedas!",

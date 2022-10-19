@@ -49,7 +49,9 @@
   "Header": {
     "connectWallet": "Conectar Billetera",
     "language": "Idioma",
-    "docs": "Documentos"
+    "docs": "Documentos",
+    "home": "Hogar",
+    "faq": "FAQ"
   },
   "Banner": {
     "heading": "Autimatiza los pagos recurrentes de la nomina en crypto!",

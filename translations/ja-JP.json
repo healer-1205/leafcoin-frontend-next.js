@@ -49,7 +49,9 @@
   "Header": {
     "connectWallet": "ウォレットを接続",
     "language": "言語",
-    "docs": "ドキュメンテーション"
+    "docs": "ドキュメンテーション",
+    "home": "家",
+    "faq": "よくある質問"
   },
   "Banner": {
     "heading": "暗号通貨の通常給与を自動化します！",

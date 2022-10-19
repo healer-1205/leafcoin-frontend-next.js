@@ -49,7 +49,9 @@
   "Header": {
     "connectWallet": "Connectez votre portefeuille pour consulter vos flux",
     "language": "Langue",
-    "docs": "Documentation"
+    "docs": "Documentation",
+    "home": "Domicile",
+    "faq": "FAQ"
   },
   "Banner": {
     "heading": "Distribuez des paiements récurrents et transparents en crypto!",
