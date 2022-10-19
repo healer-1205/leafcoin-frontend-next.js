@@ -7,6 +7,8 @@ import {
   PlayIcon,
   SunIcon,
   TerminalIcon,
+  HomeIcon,
+  QuestionMarkCircleIcon,
 } from '@heroicons/react/outline';
 import { DisclosureState } from 'ariakit';
 import { Menu, MenuItem } from 'components/NestedMenu';
@@ -126,6 +128,18 @@ export default function HeaderMenu({
         onClick={onboardDialog.toggle}
       />
 
+      <MenuItem
+        label={
+          <Link href="/">
+            <div className="flex w-full items-center justify-between gap-4 font-normal">
+              <span className="cursor-pointer">{t2('home')}</span>
+              <HomeIcon className="h-4 w-4" />
+            </div>
+          </Link>
+        }
+        // onClick={onboardDialog.toggle}
+      />
+
       {isLg && (
         <MenuItem
           label={
@@ -175,6 +189,16 @@ export default function HeaderMenu({
             <BookOpenIcon className="h-4 w-4" />
           </a>
         }
+      />
+
+      <MenuItem
+        label={
+          <>
+            <span className="cursor-pointer">{t2('faq')}</span>
+            <QuestionMarkCircleIcon className="h-4 w-4" />
+          </>
+        }
+        onClick={onboardDialog.toggle}
       />
 
       <MenuItem
