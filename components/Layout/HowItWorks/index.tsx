@@ -100,7 +100,7 @@ export default function HowItWorks({ onboardDialog }: { onboardDialog: Disclosur
           Used by <span className="font-bold">employees and employers</span>
         </h2>
 
-        <div className="flex w-full flex-col items-center bg-lp-green-3 dark:bg-lp-gray-3">
+        <div className="flex w-full flex-col items-center bg-gray-500 dark:bg-lp-gray-3">
           <div className="relative z-20 mt-[-2.25rem] mb-[-3.75rem] flex flex-col gap-[0.625rem] rounded-[0.375rem] bg-lp-white px-6 py-10 shadow-[0px_4px_12px_rgba(0,0,0,0.15)] dark:bg-lp-green-4">
             <h1 className="font-exo flex items-center gap-[0.375rem] text-4xl font-semibold text-lp-gray-4 dark:text-white">
               <StreamIcon />
