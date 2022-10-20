@@ -33,7 +33,7 @@ export default function VestingTable() {
   return (
     <section className="w-full">
       <div className="section-header flex w-full flex-wrap items-center justify-between">
-        <h1 className="font-exo">Vesting</h1>
+        <h1 className="font-exo text-white">Vesting</h1>
         <Link href="/vesting/create" aria-disabled={!vestingFactory}>
           <a
             className={classNames(

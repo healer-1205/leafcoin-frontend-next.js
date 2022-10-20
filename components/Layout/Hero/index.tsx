@@ -16,7 +16,8 @@ import classNames from 'classnames';
 
 export default function Hero({ walletDialog }: { walletDialog: DisclosureState }) {
   return (
-    <div className="relative isolate flex flex-col flex-wrap gap-5 overflow-clip bg-lp-secondary p-10 text-lp-gray-5 dark:bg-lp-green-4 dark:text-lp-white sm:p-20 xl:p-24">
+    // <div className="relative isolate flex flex-col flex-wrap gap-5 overflow-clip bg-lp-secondary p-10 text-lp-gray-5 dark:bg-lp-green-4 dark:text-lp-white sm:p-20 xl:p-24">
+    <div className="relative isolate flex flex-col flex-wrap gap-5 overflow-clip bg-lp-green-4 p-10 text-lp-white sm:p-20 xl:p-24">
       <h1 className="font-exo relative z-10 text-5xl font-bold leading-[3.5rem]">
         Stream seamless <br /> recurring crypto <br /> payments!
       </h1>
