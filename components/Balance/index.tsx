@@ -157,7 +157,8 @@ const Balance = (props: { address?: string }) => {
                       <td className={classNames(tableCellClassnames, 'rounded-r')} style={tableCellInlineStyles}>
                         <span className="flex gap-3">
                           <button
-                            className="whitespace-nowrap text-xs text-black/80 underline disabled:cursor-not-allowed dark:text-white"
+                            // className="whitespace-nowrap text-xs text-black/80 underline disabled:cursor-not-allowed dark:text-white"
+                            className="nav-button disabled:bg-gray whitespace-nowrap text-xs text-black/80 underline disabled:cursor-not-allowed"
                             onClick={() => handleToken('withdraw', b)}
                             disabled={Number.isNaN(b.amount) || Number(b.amount) <= 0}
                           >

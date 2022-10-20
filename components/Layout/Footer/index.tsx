@@ -12,12 +12,13 @@ const Widget = dynamic(() => import('./AnteWIdget'), {
 // TODO add translations
 const Footer = () => {
   return (
-    <footer className="relative mt-20 flex flex-col flex-wrap gap-12 bg-lp-gray-5 p-10 text-lp-white sm:p-20 lg:min-h-[26.25rem] xl:min-h-[30rem] xl:flex-row xl:justify-between xl:p-24">
+    // <footer className="relative mt-20 flex flex-col flex-wrap gap-12 bg-lp-gray-5 p-10 text-lp-white sm:p-20 lg:min-h-[26.25rem] xl:min-h-[30rem] xl:flex-row xl:justify-between xl:p-24">
+    <footer className="relative mt-20 flex flex-col flex-wrap gap-12 bg-black p-10 text-lp-white sm:p-20 lg:min-h-[26.25rem] xl:min-h-[30rem] xl:flex-row xl:justify-between xl:p-24">
       <div className="z-10 flex flex-col gap-4 2xl:gap-8">
         {/* <NeutralLogo /> */}
         {/* <Logo /> */}
         <p className="flex w-fit flex-wrap gap-[2px] rounded text-sm text-lp-secondary backdrop-blur-xl lg:text-base xl:flex-col">
-          <span>©2022.</span> <span>All rights reserved.</span>
+          <span className="text-blue-500">©2022.</span> <span className="text-white">All rights reserved.</span>
         </p>
       </div>
 
@@ -26,12 +27,22 @@ const Footer = () => {
           {/* <h3 className="font-exo w-fit rounded text-xl font-bold backdrop-blur-xl xl:text-2xl">Community</h3> */}
           <ul className="flex w-fit flex-col gap-2 rounded backdrop-blur-xl md:gap-4">
             <li>
-              <a href="https://twitter.com/llamapay_io/" target="_blank" rel="noreferrer noopener">
+              <a
+                href="https://twitter.com/llamapay_io/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-blue-500"
+              >
                 Twitter
               </a>
             </li>
             <li>
-              <a href="https://discord.gg/buPFYXzDDd" target="_blank" rel="noreferrer noopener">
+              <a
+                href="https://discord.gg/buPFYXzDDd"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-blue-500"
+              >
                 Discord
               </a>
             </li>
@@ -41,12 +52,12 @@ const Footer = () => {
           {/* <h3 className="font-exo w-fit rounded text-xl font-bold backdrop-blur-xl xl:text-2xl">Resources</h3> */}
           <ul className="flex w-fit flex-col gap-2 rounded backdrop-blur-xl md:gap-4">
             <li>
-              <a href="https://docs.llamapay.io/" target="_blank" rel="noreferrer noopener">
+              <a href="https://docs.llamapay.io/" target="_blank" rel="noreferrer noopener" className="text-blue-500">
                 Instagram
               </a>
             </li>
             <li>
-              <a href="https://github.com/LlamaPay" target="_blank" rel="noreferrer noopener">
+              <a href="https://github.com/LlamaPay" target="_blank" rel="noreferrer noopener" className="text-blue-500">
                 Telegram
               </a>
             </li>
