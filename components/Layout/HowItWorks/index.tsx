@@ -15,7 +15,7 @@ export default function HowItWorks({ onboardDialog }: { onboardDialog: Disclosur
   const [showPayee, setPayee] = useState(false);
 
   return (
-    <div className="mb-[-5rem] flex flex-col items-center justify-between gap-16 bg-lp-green-1 p-10 text-lp-gray-5 dark:bg-lp-gray-5 dark:text-lp-white sm:p-20 sm:!py-[4.5rem] xl:p-24">
+    <div className="mb-[-5rem] flex flex-col items-center justify-between gap-16 bg-gray-300 p-10 text-lp-gray-5 dark:bg-lp-gray-5 dark:text-lp-white sm:p-20 sm:!py-[4.5rem] xl:p-24">
       <div className="space-y-6 xl:space-y-4">
         <h2 className="font-exo mx-auto flex flex-col text-center text-[2.5rem] leading-[3rem]">
           <span className="font-bold">Automate transactions</span>
