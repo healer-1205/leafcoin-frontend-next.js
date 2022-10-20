@@ -17,7 +17,7 @@ const Header = ({ onboardDialog, walletDialog }: { onboardDialog: DisclosureStat
 
   return (
     <header
-      className="flex items-center justify-between gap-10 bg-lp-green-1 text-base dark:bg-lp-gray-5"
+      className="blue-gradient-background flex items-center justify-between gap-10 bg-lp-green-1 text-base dark:bg-lp-gray-5"
       style={{
         paddingInline: 'clamp(0.5rem, 2.5vw, 2rem)',
         paddingBlock: 'clamp(1rem, 2.5vh, 2rem)',
